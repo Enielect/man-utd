@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(248, 248, 248);
+}
+
+nav {
+    background-color: rgba(201, 8, 8, 0.986);
+    height: 55px;
+    position: fixed;
+    padding: 10px;
+    top: 46px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.manuimage {
+    width: 64px;
+    margin-right: 15px;
+}
+
+.man_utd_image {
+    width: 60px;
+    height: 60px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 750px;
+}
+
+ul li {
+    margin-right: 10px;
+}
+
+.last_button {
+    position: absolute;
+    right: 30px;
+
+}
+
+.black {
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    height: 35px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 20px;
+}
+
+.logos div {
+    margin-left: 10px;
+}
+
+.black img {
+    height: 25px;
+}
+
+
+.first-flex {
+    position: relative;
+    top: 120px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 35px;
+
+}
+
+.first {
+    width: 48%;
+    border-radius: 10px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+.image_travelling {
+    width: 340px;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.image_travelling img {
+    border-radius: 10px 0 0 10px;
+    width: 340px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.travelling-text {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+
+}
+
+.second {
+    border-radius: 10px;
+    width: 52%;
+    height: 400px;
+    margin-left: 30px;
+
+}
+
+.second img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px ;
+}
